@@ -1,0 +1,143 @@
+
+section{
+    background-color: #3c5df2;
+    font-family: Arial, sans-serif;
+    height: 600px;/*hauteur*/
+    width: 200px;/*longueur*/
+    display: inline-table;
+    word-spacing: normal;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #e9dede;
+  }
+.Dashboard{
+    display: flex;
+    color: rgb(249, 249, 249);
+    background: rgb(240, 233, 233);
+}
+.blog-container{
+    display: flex;
+    color: black;
+}
+.Dashboard1{
+    color: #e9dede;
+    display: flex;
+    flex-direction: row;
+    gap: 73px;
+    text-align:center;
+}
+.Composer{
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+    text-align:center;
+}
+.utilies {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    text-align:center;
+}
+
+.ADDONS{
+    display: flex;
+    flex-direction: row;
+    gap: 83px;
+    text-align:center;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+    text-align:center;
+}
+.Charts{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    text-align:center;
+}
+.Table{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;
+    text-align:center;
+}
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+
+}
+.container-menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.trait {
+    height: 2px;
+    width: 172px;
+    background-color: #e9dede;
+    margin-top: -17px;
+  }
+.interface{
+    display: flex;
+    height: 60px;/*hauteur*/
+    width: 20px;/*longueur*/
+    background-color: #ffffff;
+}
+.blog {
+    float: right;
+    margin: 20px;
+    display: flex;/*aligner sur la meme ligne */
+    align-content: center;/* centrer */
+    align-content: space-between;/* espacier */
+    flex-wrap: wrap;/*Aligner */
+    gap: 500px;/* espacier */
+    
+    
+}
+.button{
+    display: inline-block;
+    margin: 02%;
+    text-align: center;
+    align-content: center;/* centrer */
+    width: 100px;
+   
+}
+.blog-container1{
+    border: hsl(228, 75%, 57%);
+    background-color: #ffffff;
+    align-content: space-between;/* espacier */
+    flex-wrap: wrap;/*Aligner */
+    display: flex;/*aligner sur la meme ligne */
+    display: inline-flex;/*aligner sur la meme ligne*/
+    text-align: center;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 2px;
+    width: 200px;
+    height: 70px;
+    margin-top: 30px;
+    text-decoration-color: rgb(173, 26, 26);
+}
+.blog-container{
+    display: flex;
+    border: #3c5df2;
+    background-color: #2727a0;
+    font-size: large;
+    padding-left: 25Px;
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.blog1{
+    border-radius: 16px;
+    
+}
